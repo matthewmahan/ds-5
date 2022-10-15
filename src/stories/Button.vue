@@ -1,5 +1,5 @@
 <template>
-  <button type="button" :class="classes" @click="onClick" :style="style">{{ label }}</button>
+  <button type="button" : aria-label="form" :class="classes" @click="onClick" :style="style">{{ label }}</button>
 </template>
 
 <script>
