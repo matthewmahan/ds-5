@@ -41,7 +41,7 @@
     "@vue/eslint-config-typescript": "^4.0.0",
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-loader": "^8.2.5",
-    "chromatic": "^6.10.1",
+    "chromatic": "^6.10.2",
     "eslint": "^5.16.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-storybook": "^0.6.4",
