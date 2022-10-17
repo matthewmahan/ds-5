@@ -10,7 +10,8 @@
     "storybook:build": "vue-cli-service storybook:build -c config/storybook",
     "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=76240f139810"
   },
   "dependencies": {
     "@vue/composition-api": "^0.3.2",
@@ -53,5 +54,7 @@
     "vue-cli-plugin-storybook": "git+https://git@github.com/ux-engineer/vue-cli-plugin-storybook.git#v0.6.2",
     "vue-loader": "^15.10.0",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "boilerplate-ts-vue-storybook-tailwind-postcss@0.1.0"
 }
