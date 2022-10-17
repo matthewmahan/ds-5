@@ -1,6 +1,5 @@
 <template>
   <button
-    aria-label="button"
     class="rounded-lg px-5 py-3 text-white font-semibold leading-tight text-base font-medium shadow-sm"
     @click="onClick"
   >
