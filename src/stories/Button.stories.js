@@ -32,7 +32,7 @@ Primary.args = {
   Primary.parameters = {
     design: {
       type: 'figma',
-      url: 'iframe.html?designEmbed=true&singleStory=true&id=example-button--primary',
+      url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1208%3A1496',
     },
 };
 
@@ -42,7 +42,7 @@ Secondary.args = {
   Secondary.parameters = {
     design: {
       type: 'figma',
-      url: 'iframe.html?designEmbed=true&singleStory=true&id=example-button--primary',
+      url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1208%3A1495',
     },
 };
 
@@ -53,7 +53,7 @@ Large.args = {
   Large.parameters = {
     design: {
       type: 'figma',
-      url: 'iframe.html?designEmbed=true&singleStory=true&id=example-button--primary',
+      url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1208%3A1496',
     },
 };
 
@@ -64,6 +64,6 @@ Small.args = {
   Small.parameters = {
     design: {
       type: 'figma',
-      url: 'iframe.html?designEmbed=true&singleStory=true&id=example-button--primary',
+      url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1208%3A1496',
     },
 };
