@@ -10,12 +10,14 @@
 import Vue from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
 import MyButton from './components/MyButton.vue';
+import LimitedInput from './components/LimitedInput.vue';
 
 export default Vue.extend({
   name: 'app',
   components: {
     HelloWorld,
-    MyButton
+    MyButton,
+    LimitedInput
   }
 });
 </script>

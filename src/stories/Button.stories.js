@@ -32,7 +32,7 @@ Primary.args = {
   Primary.parameters = {
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1208%3A1496',
+      url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1210%3A1503',
     },
 };
 
@@ -53,7 +53,7 @@ Large.args = {
   Large.parameters = {
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1208%3A1496',
+      url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1210%3A1503',
     },
 };
 
@@ -64,6 +64,6 @@ Small.args = {
   Small.parameters = {
     design: {
       type: 'figma',
-      url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1208%3A1496',
+      url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1210%3A1503',
     },
 };
