@@ -1,11 +1,10 @@
 import { withDesign } from 'storybook-addon-designs';
-import MyButton from './Button.vue';
-
+import Button from '../components/Button.vue';
 
 // More on default export: https://storybook.js.org/docs/vue/writing-stories/introduction#default-export
 export default {
-  title: 'Example/Button',
-  component: MyButton,
+  title: 'Atom/Button',
+  component: Button,
   decorators: [withDesign],
   // More on argTypes: https://storybook.js.org/docs/vue/api/argtypes
   argTypes: {
@@ -20,48 +19,59 @@ export default {
 // More on component templates: https://storybook.js.org/docs/vue/writing-stories/introduction#using-args
 const Template = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
-  components: { MyButton },
-  template: '<my-button @onClick="onClick" v-bind="$props" />',
+  components: { Button },
+  template: '<button @onClick="onClick" v-bind="$props"/>',
 });
 
-export const Primary = Template.bind({});
+export const Default = Template.bind({});
 // More on args: https://storybook.js.org/docs/vue/writing-stories/args
-Primary.args = {
+Default.args = {
   primary: true,
   label: 'Button',}
-  Primary.parameters = {
+  Default.parameters = {
     design: {
       type: 'figma',
       url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1210%3A1503',
     },
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
+export const Primary = Template.bind({});
+Primary.args = {
   label: 'Button',}
-  Secondary.parameters = {
+  Primary.parameters = {
     design: {
       type: 'figma',
       url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1208%3A1495',
     },
 };
 
-export const Large = Template.bind({});
-Large.args = {
+export const Outline = Template.bind({});
+Outline.args = {
   size: 'large',
   label: 'Button',}
-  Large.parameters = {
+  Outline.parameters = {
     design: {
       type: 'figma',
       url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1210%3A1503',
     },
 };
 
-export const Small = Template.bind({});
-Small.args = {
+export const Subtle = Template.bind({});
+Subtle.args = {
   size: 'small',
   label: 'Button',}
-  Small.parameters = {
+  Subtle.parameters = {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1210%3A1503',
+    },
+};
+
+export const Transparent = Template.bind({});
+Transparent.args = {
+  size: 'small',
+  label: 'Button',}
+  Transparent.parameters = {
     design: {
       type: 'figma',
       url: 'https://www.figma.com/file/lLpDfamOhPYt8g3zf6GORm/AdvoCor-Design-System?node-id=1210%3A1503',
