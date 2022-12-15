@@ -2,13 +2,13 @@
   <div id="app">
     <div class="flex flex-col items-center justify-center p-3 min-h-full">
       <h1
-        class="my-4 text-3xl text-center font-medium tracking-wider text-purple-700"
+        class="my-4 text-3xl font-sans text-center font-medium tracking-wider text-blue-700"
       >
         Vue.js Modal transition
       </h1>
       <button
         @click="onToggle"
-        class="bg-purple-500 border border-purple-500 px-5 py-2 text-sm shadow-sm font-medium tracking-wider text-white rounded-md hover:shadow-lg hover:bg-purple-600"
+        class="bg-blue-500 border border-blue-500 px-5 py-2 text-sm shadow-sm font-medium tracking-wider text-white rounded-md hover:shadow-lg hover:bg-blue-600"
       >
         Open
       </button>
@@ -24,25 +24,25 @@
         >
           <div>
             <div class="flex-auto leading-6">
-              <h2 class="text-xl pb-2 font-regular">Mark as Reviewed</h2>
-              <p class="py-2 text-base text-gray-700">
+              <h2 class="text-xl pb-2 font-regular font-sans ">Mark as Reviewed</h2>
+              <p class="py-2 text-base text-gray-700 font-sans ">
                 Do you want to mark all fields as reviewed
               </p>
             </div>
             <div class="text-right pt-4 space-x-4 md:block">
               <button
-                class="md:mb-0 bg-white px-5 py-2 text-sm shadow-sm font-medium tracking-wider border text-gray-600 rounded-md hover:shadow-lg hover:bg-gray-100"
+                class="font-sans md:mb-0 bg-white px-5 py-2 text-sm shadow-sm font-medium tracking-wider border text-blue-600 rounded-md hover:shadow-lg hover:bg-gray-100 hover:text-blue-500"
               >
               Cancel
               </button>
               <button
-                class="md:mb-0 bg-white px-5 py-2 text-sm shadow-sm font-medium tracking-wider border text-gray-600 rounded-md hover:shadow-lg hover:bg-gray-100"
+                class="font-sans md:mb-0 bg-white px-5 py-2 text-sm shadow-sm font-medium tracking-wider border text-blue-600 rounded-md hover:shadow-lg hover:bg-gray-100 hover:text-blue-500"
               >
               Option
               </button>
               <button
                 @click="onToggle"
-                class="md:mb-0 bg-purple-500 border border-purple-500 px-5 py-2 text-sm shadow-sm font-medium tracking-wider text-white rounded-md hover:shadow-lg hover:bg-purple-600"
+                class="font-sans md:mb-0 bg-blue-500 border border-blue-500 px-5 py-2 text-sm shadow-sm font-medium tracking-wider text-white rounded-md hover:shadow-lg hover:bg-blue-600"
               >
               Save
               </button>

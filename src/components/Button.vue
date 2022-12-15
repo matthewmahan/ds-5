@@ -1,6 +1,6 @@
 <template>
   <button
-    class="rounded px-3 py-2 font-regular leading-tight text-base shadow-sm"
+    class="rounded shadow-sm"
     @click="onClick"
   >
     <slot></slot>
@@ -11,7 +11,7 @@
 import { createComponent, SetupContext } from '@vue/composition-api';
 
 export default createComponent({
-  name: 'my-button',
+  name: 'button',
   setup: (props: any, context: SetupContext) => {
     const onClick = () => {
       console.log('clicked!');
@@ -26,12 +26,8 @@ export default createComponent({
 </script>
 
 <style>
-button {
+button-primary {
   @apply px-3 py-2 leading-tight text-base rounded;
-}
-
-button:hover {
-  @apply bg-blue-700 text-white border-transparent shadow;
 }
 
 </style>
