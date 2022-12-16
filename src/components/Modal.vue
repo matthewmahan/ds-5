@@ -31,18 +31,18 @@
             </div>
             <div class="text-right pt-4 space-x-4 md:block">
               <button
-                class="font-sans md:mb-0 bg-white px-5 py-2 text-sm shadow-sm font-medium tracking-wider border text-blue-600 rounded-md hover:shadow-lg hover:bg-gray-100 hover:text-blue-500"
+                class="font-sans rounded md:mb-0 bg-white px-5 py-2 text-sm shadow-sm font-medium tracking-wider border border-ds-grey-30 text-ds-grey-80 rounded-md hover:shadow-lg hover:bg-gray-100 hover:text-blue-500"
               >
               Cancel
               </button>
               <button
-                class="font-sans md:mb-0 bg-white px-5 py-2 text-sm shadow-sm font-medium tracking-wider border text-blue-600 rounded-md hover:shadow-lg hover:bg-gray-100 hover:text-blue-500"
+                class="font-sans rounded md:mb-0 bg-white px-5 py-2 text-sm shadow-sm font-medium tracking-wider border border-ds-grey-30 text-ds-grey-80 rounded-md hover:shadow-lg hover:bg-gray-100 hover:text-blue-500"
               >
               Option
               </button>
               <button
                 @click="onToggle"
-                class="font-sans md:mb-0 bg-blue-500 border border-blue-500 px-5 py-2 text-sm shadow-sm font-medium tracking-wider text-white rounded-md hover:shadow-lg hover:bg-blue-600"
+                class="font-sans rounded md:mb-0 bg-ds-blue-50 border px-5 py-2 text-sm shadow-sm font-medium tracking-wider text-white rounded-md hover:shadow-lg hover:bg-ds-blue-60"
               >
               Save
               </button>
@@ -76,9 +76,6 @@ export default {
 };
 </script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-}
 
 .fade-enter,
 .fade-leave-to {
