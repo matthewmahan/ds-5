@@ -12,27 +12,27 @@
           <thead>
             <tr>
               <th
-                class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700  tracking-wider"
+                class="px-5 py-3 border-b-2 border-ds-gray-20 bg-ds-gray-10 text-left text-xs font-semibold text-ds-gray-600  tracking-wider"
               >
                 Client / Invoice
               </th>
               <th
-                class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700  tracking-wider"
+              class="px-5 py-3 border-b-2 border-ds-gray-20 bg-ds-gray-10 text-left text-xs font-semibold text-ds-gray-600  tracking-wider"
               >
                 Amount
               </th>
               <th
-                class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700  tracking-wider"
+              class="px-5 py-3 border-b-2 border-ds-gray-20 bg-ds-gray-10 text-left text-xs font-semibold text-ds-gray-600  tracking-wider"
               >
                 Issued / Due
               </th>
               <th
-                class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-700  tracking-wider"
+              class="px-5 py-3 border-b-2 border-ds-gray-20 bg-ds-gray-10 text-left text-xs font-semibold text-ds-gray-600  tracking-wider"
               >
                 Status
               </th>
               <th
-                class="px-5 py-3 border-b-2 border-gray-200 bg-gray-100"
+                class="px-5 py-3 border-b-2 border-ds-gray-20 bg-ds-gray-10"
               ></th>
             </tr>
           </thead>
@@ -260,3 +260,11 @@
   </div>
 </div>
 </template>
+
+<script lang="ts">
+import { createComponent, SetupContext } from '@vue/composition-api';
+
+export default createComponent({
+  name: 'table',
+});
+</script>

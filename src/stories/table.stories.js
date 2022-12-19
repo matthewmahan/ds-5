@@ -5,9 +5,8 @@ import { linkTo } from '@storybook/addon-links';
 
 import table from '../components/table.vue';
 
-storiesOf('Molecule/table', table)
-.add('with text', () => ({
-    components: { table },
-    template: '<table>',
-    methods: { action: action('clicked') }
-  }));
+// More on default export: https://storybook.js.org/docs/vue/writing-stories/introduction#default-export
+export default {
+  title: 'Molecule/Table',
+  component: table,
+};
